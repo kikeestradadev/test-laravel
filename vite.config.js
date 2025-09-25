@@ -8,6 +8,7 @@ export default defineConfig({
             input: ['resources/css/app.css', 'resources/js/app.js'],
             refresh: [
                 'resources/views/**/*.blade.php',
+                'resources/views/**/*.php',
                 'routes/**/*.php',
                 'app/**/*.php'
             ],
@@ -16,6 +17,7 @@ export default defineConfig({
             config: {
                 content: [
                     'resources/views/**/*.blade.php',
+                    'resources/views/**/*.php',
                     'resources/js/**/*.js',
                     'app/**/*.php'
                 ],
@@ -25,6 +27,11 @@ export default defineConfig({
     server: {
         hmr: {
             host: 'localhost',
+            port: 5173,
+        },
+        watch: {
+            usePolling: true,
+            interval: 1000,
         },
     },
     css: {

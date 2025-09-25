@@ -15,4 +15,9 @@ class PageController extends Controller
     {
         return view('pages.page2');
     }
+
+    public function exampleMeta()
+    {
+        return view('pages.example-meta');
+    }
 }
