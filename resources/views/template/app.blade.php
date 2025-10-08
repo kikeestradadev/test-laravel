@@ -7,7 +7,7 @@
         <meta name="robots" content="@yield('meta-robots', 'index, follow')">
         <meta name="keywords" content="@yield('meta-keywords', 'sports, booking, sportbook, sports reservation')">
 
-        <!-- Open Graph Meta Tags -->
+        <!-- Open Graph Meta Tags --><!-- Open Graph Meta Tags -->
         <meta property="og:title" content="@yield('og-title', 'Ossian Sportbook')">
         <meta property="og:description" content="@yield('meta-description', 'Sportbook - Your sports booking platform')">
         <meta property="og:type" content="@yield('og-type', 'website')">
