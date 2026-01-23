@@ -27,7 +27,7 @@
         <title>Ossian -  @yield('title-page')</title>
 
         <!-- Vite Assets -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/css/tailwind.css', 'resources/css/app.scss', 'resources/js/app.js'])
 
     </head>
     <body class="@yield('body_class') flex flex-col min-h-screen">

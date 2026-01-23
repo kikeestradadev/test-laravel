@@ -1,0 +1,10 @@
+@import "core/media-queries";
+@import "core/fonts";
+@import "core/layout";
+@import "components/components";
+
+body{
+	@include fromTo(m,xl){
+		background-color: green !important;
+	}
+}
